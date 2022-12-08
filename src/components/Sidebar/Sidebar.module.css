@@ -6,10 +6,137 @@
     height: 100vh;
     border-left: 1px solid grey;
     padding: 30px;
+    font-size: 14px;
 }
 
 .image {
     width: 100%;
     max-height: 200px;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.byteSize {
+    color: grey;
+}
+
+.informationContainer {
+    margin: 20px 0;
+}
+
+.informationHeader {
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.informationContent {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.informationContent > *:first-child {
+    color: rgb(138, 138, 138);
+}
+
+.descriptionContainer {
+    margin-top: 20px;
+}
+
+.descriptionContentContainer {
+    display: flex;
+}
+
+.descriptionContent {
+    padding: 5px 0;
+    width: 100%;
+    font-style: italic;
+    color: grey;
+    font-size: 12px;
+}
+
+.sharedWithHeader {
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.sharedWithPic {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.sharedWithContent {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.sharedRemovePerson {
+    color: purple;
+}
+
+.sharedWithProfile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.sharedWithAddcontainer {
+    color: purple;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.sharedWithAddPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 1px dashed grey;
+}
+
+.buttonGroup {
+    margin: 20px 0;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.downloadButton {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    background-color: purple;
+    padding: 5px 0;
+}
+
+.deleteButton {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 0;
+    background-color: white;
 }

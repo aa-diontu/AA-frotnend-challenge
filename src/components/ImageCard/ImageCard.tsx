@@ -10,9 +10,9 @@ type ImageProps = {
     onClickImage: any;
 }
 
-const ImageCard = ({image, imgSrc, imgName, size, selected, onClickImage}: ImageProps) => {
+const ImageCard = ({imgSrc, imgName, size, selected, onClickImage}: ImageProps) => {
     return (
-        <div className={styles.card} onClick={() => onClickImage(image)}>
+        <div className={styles.card} onClick={() => onClickImage()}>
             <img src={imgSrc} alt={imgName} className={`${styles.cardImage} ${selected ? styles.imageSelected : ''}`} />
             <div className={styles.cardName}>{imgName}</div>
             <div className={styles.cardSize}>{size} MB</div>

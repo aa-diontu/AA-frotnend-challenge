@@ -27,6 +27,10 @@ const ImagesLayout = ({ filterOn, sortBy, selected, onClickImage }: ImagesLayout
         images = unsortedImages;
     }
 
+    const onClickImageHandler = (image: any) => {
+        onClickImage(image);
+    };
+
     return (
         <div className={styles.layout}>
             {images.map((image) => (
@@ -37,7 +41,7 @@ const ImagesLayout = ({ filterOn, sortBy, selected, onClickImage }: ImagesLayout
                     size={convertByptesToMegabytes(image.sizeInBytes)}
                     selected={selected?.id === image?.id}
                     image={image}
-                    onClickImage={onClickImage}
+                    onClickImage={() => onClickImageHandler(image)}
                 />
             ))}
         </div>
