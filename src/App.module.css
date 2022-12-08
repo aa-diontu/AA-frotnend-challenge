@@ -1,0 +1,15 @@
+.app {
+  position: relative;
+}
+
+.home {
+  position: relative;
+  left: 0;
+  padding: 40px;
+  margin-right: max(300px, 20vw);
+}
+
+.appHeader {
+  margin-bottom: 20px;
+  font-size: calc(10px + 2vmin);
+}

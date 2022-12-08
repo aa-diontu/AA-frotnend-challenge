@@ -1,0 +1,17 @@
+.tabContainer {
+    border-bottom: 2px solid rgb(201, 201, 201);
+}
+
+.tab {
+    border: none;
+    background: none;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 20px 0;
+}
+
+.tabActive {
+    border-bottom: 1px solid purple;
+    color: purple;
+}
