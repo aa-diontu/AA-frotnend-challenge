@@ -3,7 +3,7 @@
 }
 .cardImage {
     width: 150px;
-    max-height: 100px;
+    height: 100px;
     border-radius: 10px;
 }
 .imageSelected {
