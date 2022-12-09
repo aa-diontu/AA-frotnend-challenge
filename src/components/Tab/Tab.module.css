@@ -1,5 +1,5 @@
 .tabContainer {
-    border-bottom: 2px solid rgb(201, 201, 201);
+    border-bottom: 2px solid var(--very-light-grey);
 }
 
 .tab {
@@ -12,6 +12,6 @@
 }
 
 .tabActive {
-    border-bottom: 1px solid purple;
-    color: purple;
+    border-bottom: 1px solid var(--brand-color);
+    color: var(--brand-color);
 }

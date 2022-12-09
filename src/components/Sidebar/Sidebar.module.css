@@ -4,9 +4,10 @@
     top: 0;
     widtH: max(300px, 20vw);
     height: 100vh;
-    border-left: 1px solid grey;
+    border-left: 1px solid var(--very-light-grey);
     padding: 30px;
     font-size: 14px;
+    /* box-shadow: -1px 0px 10px 1px rgb(227, 227, 227); */
 }
 
 .image {
@@ -20,14 +21,14 @@
     color: grey;
 }
 
-.informationContainer {
+.container {
     margin: 20px 0;
 }
 
 .informationHeader {
     font-size: 14px;
     padding: 10px 0;
-    border-bottom: 1px solid rgb(181, 181, 181);
+    border-bottom: 1px solid var(--very-light-grey);
 }
 
 .informationContent {
@@ -35,15 +36,11 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-    border-bottom: 1px solid rgb(181, 181, 181);
+    border-bottom: 1px solid var(--very-light-grey);
 }
 
 .informationContent > *:first-child {
-    color: rgb(138, 138, 138);
-}
-
-.descriptionContainer {
-    margin-top: 20px;
+    color: grey;
 }
 
 .descriptionContentContainer {
@@ -61,7 +58,7 @@
 .sharedWithHeader {
     font-size: 14px;
     padding: 10px 0;
-    border-bottom: 1px solid rgb(181, 181, 181);
+    border-bottom: 1px solid var(--very-light-grey);
 }
 
 .sharedWithPic {
@@ -76,11 +73,13 @@
     display: flex;
     align-items: center;
     padding: 10px 0;
-    border-bottom: 1px solid rgb(181, 181, 181);
+    border-bottom: 1px solid var(--very-light-grey);
 }
 
 .sharedRemovePerson {
-    color: purple;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--brand-color);
 }
 
 .sharedWithProfile {
@@ -90,12 +89,13 @@
 }
 
 .sharedWithAddcontainer {
-    color: purple;
+    color: var(--brand-color);
     display: flex;
     align-items: center;
     width: 100%;
     padding: 10px 0;
-    border-bottom: 1px solid rgb(181, 181, 181);
+    border-bottom: 1px solid var(--very-light-grey);
+    cursor: pointer;
 }
 
 .sharedWithAddPic {
@@ -110,7 +110,6 @@
 }
 
 .buttonGroup {
-    margin: 20px 0;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
@@ -121,11 +120,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(181, 181, 181);
+    border: 1px solid var(--very-light-grey);
     border-radius: 5px;
     font-size: 12px;
     color: white;
-    background-color: purple;
+    background-color: var(--brand-color);
     padding: 5px 0;
 }
 
@@ -134,7 +133,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(181, 181, 181);
+    border: 1px solid var(--very-light-grey);
     border-radius: 5px;
     font-size: 12px;
     padding: 5px 0;

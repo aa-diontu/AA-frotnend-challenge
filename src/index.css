@@ -1,3 +1,8 @@
+:root {
+  --light-grey: rgb(188, 191, 194);
+  --very-light-grey: rgb(212, 212, 212);
+  --brand-color: #4F45E4;
+}
 * {
   box-sizing: border-box;
 }
